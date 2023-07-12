@@ -1,0 +1,11 @@
+[ {
+  "uid" : "383f69f6e97bd88c",
+  "name" : "测开1",
+  "time" : {
+    "start" : 1664892180474,
+    "stop" : 1664892184994,
+    "duration" : 4520
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

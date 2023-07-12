@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase.测开_测开1_test",
+    "children" : [ {
+      "name" : "测开1",
+      "uid" : "dffad28632bc4b0b",
+      "parentUid" : "a6dfcacdead2183d6817153a9741c002",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664892180474,
+        "stop" : 1664892184994,
+        "duration" : 4520
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testcase.测开_测开1_test"
+  } ]
+}

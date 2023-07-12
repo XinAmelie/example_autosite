@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "测开_测开1_test",
+      "children" : [ {
+        "name" : "TestCase测开测开1",
+        "children" : [ {
+          "name" : "测开1",
+          "uid" : "dffad28632bc4b0b",
+          "parentUid" : "f288f2561c2196e07c79118eeee65c92",
+          "status" : "passed",
+          "time" : {
+            "start" : 1664892180474,
+            "stop" : 1664892184994,
+            "duration" : 4520
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f288f2561c2196e07c79118eeee65c92"
+      } ],
+      "uid" : "a26936f2ba686cd08ad6ab1de3fcade0"
+    } ],
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+  } ]
+}

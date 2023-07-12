@@ -1,0 +1,221 @@
+--- Logging error in Loguru Handler #0 ---
+Record was: {'elapsed': datetime.timedelta(seconds=2, microseconds=438124), 'exception': None, 'extra': {}, 'file': (name='runner.py', path='d:\\python3.8\\projects\\django\\djenv\\lib\\site-packages\\httprunner\\runner.py'), 'function': 'test_start', 'level': (name='INFO', no=20, icon='ℹ️'), 'line': 450, 'message': 'Start to run testcase: 测开1, TestCase ID: cd67fb93-d6b0-40c6-9318-b12f221d20ae', 'module': 'runner', 'name': 'httprunner.runner', 'process': (id=18272, name='MainProcess'), 'thread': (id=16764, name='MainThread'), 'time': datetime(2022, 10, 4, 22, 3, 0, 475592, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800), '中国标准时间'))}
+Traceback (most recent call last):
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\loguru\_handler.py", line 177, in emit
+    self._sink.write(str_record)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\loguru\_simple_sinks.py", line 26, in write
+    self._stream.write(message)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 47, in write
+    self.__convertor.write(text)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 170, in write
+    self.write_and_convert(text)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 195, in write_and_convert
+    self.write_plain_text(text, cursor, start)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 204, in write_plain_text
+    self.wrapped.flush()
+OSError: [WinError 6] 句柄无效。
+--- End of logging error ---
+--- Logging error in Loguru Handler #0 ---
+Record was: {'elapsed': datetime.timedelta(seconds=2, microseconds=463781), 'exception': None, 'extra': {}, 'file': (name='runner.py', path='d:\\python3.8\\projects\\django\\djenv\\lib\\site-packages\\httprunner\\runner.py'), 'function': '__run_step', 'level': (name='INFO', no=20, icon='ℹ️'), 'line': 292, 'message': 'run step begin: step_name >>>>>>', 'module': 'runner', 'name': 'httprunner.runner', 'process': (id=18272, name='MainProcess'), 'thread': (id=16764, name='MainThread'), 'time': datetime(2022, 10, 4, 22, 3, 0, 501249, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800), '中国标准时间'))}
+Traceback (most recent call last):
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\loguru\_handler.py", line 177, in emit
+    self._sink.write(str_record)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\loguru\_simple_sinks.py", line 26, in write
+    self._stream.write(message)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 47, in write
+    self.__convertor.write(text)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 170, in write
+    self.write_and_convert(text)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 195, in write_and_convert
+    self.write_plain_text(text, cursor, start)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 204, in write_plain_text
+    self.wrapped.flush()
+OSError: [WinError 6] 句柄无效。
+--- End of logging error ---
+--- Logging error in Loguru Handler #0 ---
+Record was: {'elapsed': datetime.timedelta(seconds=6, microseconds=546719), 'exception': None, 'extra': {}, 'file': (name='client.py', path='d:\\python3.8\\projects\\django\\djenv\\lib\\site-packages\\httprunner\\client.py'), 'function': 'request', 'level': (name='WARNING', no=30, icon='⚠️'), 'line': 188, 'message': "failed to get client address info: 'NoneType' object has no attribute 'connection'", 'module': 'client', 'name': 'httprunner.client', 'process': (id=18272, name='MainProcess'), 'thread': (id=16764, name='MainThread'), 'time': datetime(2022, 10, 4, 22, 3, 4, 584187, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800), '中国标准时间'))}
+Traceback (most recent call last):
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\httprunner\client.py", line 183, in request
+    client_ip, client_port = response.raw.connection.sock.getsockname()
+AttributeError: 'NoneType' object has no attribute 'connection'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\loguru\_handler.py", line 177, in emit
+    self._sink.write(str_record)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\loguru\_simple_sinks.py", line 26, in write
+    self._stream.write(message)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 47, in write
+    self.__convertor.write(text)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 170, in write
+    self.write_and_convert(text)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 195, in write_and_convert
+    self.write_plain_text(text, cursor, start)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 204, in write_plain_text
+    self.wrapped.flush()
+OSError: [WinError 6] 句柄无效。
+--- End of logging error ---
+--- Logging error in Loguru Handler #0 ---
+Record was: {'elapsed': datetime.timedelta(seconds=6, microseconds=905956), 'exception': None, 'extra': {}, 'file': (name='client.py', path='d:\\python3.8\\projects\\django\\djenv\\lib\\site-packages\\httprunner\\client.py'), 'function': 'request', 'level': (name='WARNING', no=30, icon='⚠️'), 'line': 196, 'message': "failed to get server address info: 'NoneType' object has no attribute 'connection'", 'module': 'client', 'name': 'httprunner.client', 'process': (id=18272, name='MainProcess'), 'thread': (id=16764, name='MainThread'), 'time': datetime(2022, 10, 4, 22, 3, 4, 943424, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800), '中国标准时间'))}
+Traceback (most recent call last):
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\httprunner\client.py", line 191, in request
+    server_ip, server_port = response.raw.connection.sock.getpeername()
+AttributeError: 'NoneType' object has no attribute 'connection'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\loguru\_handler.py", line 177, in emit
+    self._sink.write(str_record)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\loguru\_simple_sinks.py", line 26, in write
+    self._stream.write(message)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 47, in write
+    self.__convertor.write(text)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 170, in write
+    self.write_and_convert(text)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 195, in write_and_convert
+    self.write_plain_text(text, cursor, start)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 204, in write_plain_text
+    self.wrapped.flush()
+OSError: [WinError 6] 句柄无效。
+--- End of logging error ---
+--- Logging error in Loguru Handler #0 ---
+Record was: {'elapsed': datetime.timedelta(seconds=6, microseconds=906955), 'exception': None, 'extra': {}, 'file': (name='client.py', path='d:\\python3.8\\projects\\django\\djenv\\lib\\site-packages\\httprunner\\client.py'), 'function': 'log_print', 'level': (name='DEBUG', no=10, icon='🐞'), 'line': 40, 'message': '\n================== request details ==================\nmethod   : GET\nurl      : https://localhost/demo/path\nheaders  : {}\ncookies  : {}\nbody     : None\n', 'module': 'client', 'name': 'httprunner.client', 'process': (id=18272, name='MainProcess'), 'thread': (id=16764, name='MainThread'), 'time': datetime(2022, 10, 4, 22, 3, 4, 944423, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800), '中国标准时间'))}
+Traceback (most recent call last):
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\loguru\_handler.py", line 177, in emit
+    self._sink.write(str_record)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\loguru\_simple_sinks.py", line 26, in write
+    self._stream.write(message)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 47, in write
+    self.__convertor.write(text)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 170, in write
+    self.write_and_convert(text)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 195, in write_and_convert
+    self.write_plain_text(text, cursor, start)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 204, in write_plain_text
+    self.wrapped.flush()
+OSError: [WinError 6] 句柄无效。
+--- End of logging error ---
+--- Logging error in Loguru Handler #0 ---
+Record was: {'elapsed': datetime.timedelta(seconds=6, microseconds=907951), 'exception': None, 'extra': {}, 'file': (name='client.py', path='d:\\python3.8\\projects\\django\\djenv\\lib\\site-packages\\httprunner\\client.py'), 'function': 'log_print', 'level': (name='DEBUG', no=10, icon='🐞'), 'line': 40, 'message': '\n================== response details ==================\nstatus_code : 0\nheaders  : {}\ncookies  : {}\nencoding : None\ncontent_type : \nbody     : \n', 'module': 'client', 'name': 'httprunner.client', 'process': (id=18272, name='MainProcess'), 'thread': (id=16764, name='MainThread'), 'time': datetime(2022, 10, 4, 22, 3, 4, 945419, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800), '中国标准时间'))}
+Traceback (most recent call last):
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\loguru\_handler.py", line 177, in emit
+    self._sink.write(str_record)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\loguru\_simple_sinks.py", line 26, in write
+    self._stream.write(message)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 47, in write
+    self.__convertor.write(text)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 170, in write
+    self.write_and_convert(text)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 195, in write_and_convert
+    self.write_plain_text(text, cursor, start)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 204, in write_plain_text
+    self.wrapped.flush()
+OSError: [WinError 6] 句柄无效。
+--- End of logging error ---
+--- Logging error in Loguru Handler #0 ---
+Record was: {'elapsed': datetime.timedelta(seconds=6, microseconds=908949), 'exception': None, 'extra': {}, 'file': (name='client.py', path='d:\\python3.8\\projects\\django\\djenv\\lib\\site-packages\\httprunner\\client.py'), 'function': 'request', 'level': (name='ERROR', no=40, icon='❌'), 'line': 215, 'message': "HTTPSConnectionPool(host='localhost', port=443): Max retries exceeded with url: /demo/path (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021AF93DE100>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))", 'module': 'client', 'name': 'httprunner.client', 'process': (id=18272, name='MainProcess'), 'thread': (id=16764, name='MainThread'), 'time': datetime(2022, 10, 4, 22, 3, 4, 946417, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800), '中国标准时间'))}
+Traceback (most recent call last):
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\urllib3\connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000021AF93DE100>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='localhost', port=443): Max retries exceeded with url: /demo/path (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021AF93DE100>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\httprunner\client.py", line 213, in request
+    response.raise_for_status()
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\httprunner\client.py", line 25, in raise_for_status
+    raise self.error
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\httprunner\client.py", line 231, in _send_request_safe_mode
+    return requests.Session.request(self, method, url, **kwargs)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='localhost', port=443): Max retries exceeded with url: /demo/path (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021AF93DE100>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\loguru\_handler.py", line 177, in emit
+    self._sink.write(str_record)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\loguru\_simple_sinks.py", line 26, in write
+    self._stream.write(message)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 47, in write
+    self.__convertor.write(text)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 170, in write
+    self.write_and_convert(text)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 195, in write_and_convert
+    self.write_plain_text(text, cursor, start)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 204, in write_plain_text
+    self.wrapped.flush()
+OSError: [WinError 6] 句柄无效。
+--- End of logging error ---
+--- Logging error in Loguru Handler #0 ---
+Record was: {'elapsed': datetime.timedelta(seconds=6, microseconds=954778), 'exception': None, 'extra': {}, 'file': (name='runner.py', path='d:\\python3.8\\projects\\django\\djenv\\lib\\site-packages\\httprunner\\runner.py'), 'function': '__run_step', 'level': (name='INFO', no=20, icon='ℹ️'), 'line': 304, 'message': 'run step end: step_name <<<<<<\n', 'module': 'runner', 'name': 'httprunner.runner', 'process': (id=18272, name='MainProcess'), 'thread': (id=16764, name='MainThread'), 'time': datetime(2022, 10, 4, 22, 3, 4, 992246, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800), '中国标准时间'))}
+Traceback (most recent call last):
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\loguru\_handler.py", line 177, in emit
+    self._sink.write(str_record)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\loguru\_simple_sinks.py", line 26, in write
+    self._stream.write(message)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 47, in write
+    self.__convertor.write(text)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 170, in write
+    self.write_and_convert(text)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 195, in write_and_convert
+    self.write_plain_text(text, cursor, start)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 204, in write_plain_text
+    self.wrapped.flush()
+OSError: [WinError 6] 句柄无效。
+--- End of logging error ---
+--- Logging error in Loguru Handler #0 ---
+Record was: {'elapsed': datetime.timedelta(seconds=6, microseconds=955775), 'exception': None, 'extra': {}, 'file': (name='runner.py', path='d:\\python3.8\\projects\\django\\djenv\\lib\\site-packages\\httprunner\\runner.py'), 'function': 'test_start', 'level': (name='INFO', no=20, icon='ℹ️'), 'line': 460, 'message': 'generate testcase log: D:\\python3.8\\projects\\Django\\autotpsite\\logs\\cd67fb93-d6b0-40c6-9318-b12f221d20ae.run.log', 'module': 'runner', 'name': 'httprunner.runner', 'process': (id=18272, name='MainProcess'), 'thread': (id=16764, name='MainThread'), 'time': datetime(2022, 10, 4, 22, 3, 4, 993243, tzinfo=datetime.timezone(datetime.timedelta(seconds=28800), '中国标准时间'))}
+Traceback (most recent call last):
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\loguru\_handler.py", line 177, in emit
+    self._sink.write(str_record)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\loguru\_simple_sinks.py", line 26, in write
+    self._stream.write(message)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 47, in write
+    self.__convertor.write(text)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 170, in write
+    self.write_and_convert(text)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 195, in write_and_convert
+    self.write_plain_text(text, cursor, start)
+  File "d:\python3.8\projects\django\djenv\lib\site-packages\colorama\ansitowin32.py", line 204, in write_plain_text
+    self.wrapped.flush()
+OSError: [WinError 6] 句柄无效。
+--- End of logging error ---

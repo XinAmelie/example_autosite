@@ -1,0 +1,15 @@
+{
+    "config": {
+        "name": "vivo手机发布会",
+        "base_url": "https://localhost"
+    },
+    "teststeps": [
+        {
+            "name": "step_name",
+            "request": {
+                "method": "GET",
+                "url": "/demo/path"
+            }
+        }
+    ]
+}

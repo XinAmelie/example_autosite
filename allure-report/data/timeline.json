@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-NQLBTAS",
+    "children" : [ {
+      "name" : "18272-MainThread",
+      "children" : [ {
+        "name" : "测开1",
+        "uid" : "383f69f6e97bd88c",
+        "parentUid" : "44f19cc07fe9cfb92993b119f1854e8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1664892180474,
+          "stop" : 1664892184994,
+          "duration" : 4520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "44f19cc07fe9cfb92993b119f1854e8d"
+    } ],
+    "uid" : "802bfd7a8e672e5fa7ef8858da811046"
+  } ]
+}

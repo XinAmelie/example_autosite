@@ -1,0 +1,90 @@
+{
+  "uid" : "383f69f6e97bd88c",
+  "name" : "测开1",
+  "fullName" : "testcase.测开_测开1_test.TestCase测开测开1#test_start",
+  "historyId" : "82ea3eaafd24ab7dcced840dae0580b2",
+  "time" : {
+    "start" : 1664892180474,
+    "stop" : 1664892184994,
+    "duration" : 4520
+  },
+  "description" : "TestCase ID: cd67fb93-d6b0-40c6-9318-b12f221d20ae",
+  "descriptionHtml" : "<p>TestCase ID: cd67fb93-d6b0-40c6-9318-b12f221d20ae</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "TestCase ID: cd67fb93-d6b0-40c6-9318-b12f221d20ae",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step: step_name",
+      "time" : {
+        "start" : 1664892180501,
+        "stop" : 1664892184993,
+        "duration" : 4492
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "2e7d578486aad820",
+      "name" : "stderr",
+      "source" : "2e7d578486aad820.txt",
+      "type" : "text/plain",
+      "size" : 19906
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "测开_测开1_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase测开测开1"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NQLBTAS"
+  }, {
+    "name" : "thread",
+    "value" : "18272-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.测开_测开1_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "383f69f6e97bd88c.json",
+  "parameterValues" : [ ]
+}
